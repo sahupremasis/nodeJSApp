@@ -14,6 +14,6 @@ app.get('/api/courses', (req, res) => {
     res.send([1, 2, 3, 4]);
 });
 
-app.post('/api/saveUser', function (req, res) {
+app.post('/api/saveItem', function (req, res) {
     res.send('POST request to the homepage');
 });
